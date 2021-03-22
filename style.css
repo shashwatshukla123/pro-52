@@ -1,0 +1,66 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:rgb(250, 43, 43);
+}
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+
+a:link{
+ color:rgb(241, 239, 100);
+}
+
+a:visited{
+    color:rgb(113, 7, 212);
+}
+
+.ss{
+    text-align: center;
+    color: black;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.grid img{
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    position: relative;
+}
+
+.origami{
+ border-radius:20px;
+ background-color: rgb(21, 204, 76);
+padding:30px;
+margin:25px;
+ width:310px;
+ font-family: fantasy;
+
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.sa{
+    color: rgb(32, 35, 223);
+    position: absolute;
+    top:18%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   } 
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
